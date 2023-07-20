@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.wholenav {
+    min-height: 13vh;
+    max-width: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navContainer {
+    min-height: 13vh;
+    max-width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+
+
+
+.btn_signin {
+    background-color: #FF42A5;
+    color: white;
+    font-weight: 600;
+}
+
+.btn_gr {
+    background-color: #4EC5F7;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logos img {
+    width: 28%;
+}
+
+.logos h1 {
+    color: #0b0223;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.n-logo {
+    color: #ff42a5;
+}
