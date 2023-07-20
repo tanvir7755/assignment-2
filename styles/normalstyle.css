@@ -14,7 +14,7 @@
 .wholenav {
     min-height: 13vh;
     max-width: 100%;
-    background: #fcd8d8;
+    background: #f9dddd;
     box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -38,8 +38,8 @@
 }
 
 .btn_gr {
-    background-color: #19b6f9;
-    color: rgb(239, 235, 235);
+    background-color: #35bcf6;
+    color: rgb(213, 194, 194);
     font-weight: 600;
 }
 
