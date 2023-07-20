@@ -14,7 +14,7 @@
 .wholenav {
     min-height: 13vh;
     max-width: 100%;
-    background: #fff;
+    background: #fcd8d8;
     box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -32,14 +32,14 @@
 
 
 .btn_signin {
-    background-color: #FF42A5;
-    color: white;
+    background-color: #f51b8c;
+    color: rgb(246, 242, 242);
     font-weight: 600;
 }
 
 .btn_gr {
-    background-color: #4EC5F7;
-    color: white;
+    background-color: #19b6f9;
+    color: rgb(239, 235, 235);
     font-weight: 600;
 }
 
@@ -68,5 +68,359 @@
 }
 
 .n-logo {
-    color: #ff42a5;
+    color: #f12d92;
+}
+
+.nav-right .nav_right_right {
+    border-radius: 8px;
+    background: rgba(11, 3, 34, 0.1);
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
+/* shared styles*/
+.nav-right a:hover,
+.nav-right i:hover,
+button:hover {
+    transform: translateY(-0.10rem);
+    cursor: pointer;
+}
+
+.nav-right a:active,
+.nav-right i:active,
+button:active {
+    transform: translateY(0.10rem);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #463e5e;
+}
+
+.btn {
+    margin-top: 1.4rem;
+    padding: 11px 22px;
+    border-radius: 18px;
+    font-size: 13px;
+    border: 0;
+}
+
+
+
+
+.header_description {
+    max-width: 1450px;
+    margin: 0 auto;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.5rem;
+    /* border: 1px solid black; */
+}
+
+.f_icons {
+    margin-right: 10px;
+    text-align: left;
+}
+
+.header_description1 {
+    width: 30%;
+    min-height: 10vh;
+    /* padding: 100px 0; */
+}
+
+.header_description1 p {
+    color: #594e72;
+    margin: 10px 0;
+    font-size: small;
+
+}
+
+.header_description1 h1 {
+    font-weight: 740px;
+    font-size: 30px;
+    color: #0b0223;
+    margin-bottom: 10px;
+}
+
+.header_description1 .goat {
+    font-size: 65px;
+    background: linear-gradient(180deg, #f671c1 0%, #a582f8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.header_description2 {
+    width: 40%;
+    min-height: 10vh;
+}
+
+.header_description2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Main section Styles */
+
+.Online_Games_Container {
+    margin-top: 70px;
+}
+
+.online_title {
+    max-width: 750px;
+    margin: 0 auto;
+    min-height: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #0B0223;
+}
+
+.online_title span {
+    color: rgb(255, 90, 255);
+}
+
+.online_description {
+
+    max-width: 550px;
+    font-size: 15px;
+    margin: 0 auto;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+
+.Online_Videos {
+    max-width: 1450px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.img:hover .play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/play.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.Online_Videos .img:hover {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.Online_Videos .img img:hover {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.Online_Videos img {
+    max-width: 270px;
+}
+
+
+.Online_Videos .img p {
+    padding-top: 1rem;
+}
+
+
+.Online_Videos .img p {
+    max-width: 270px;
+    align-items: center;
+
+
+}
+
+
+.play_games {
+    margin-top: 100px;
+    max-width: 1145px;
+    min-height: 72vh;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+
+
+.play_games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5rem;
+}
+
+.play_container {
+    width: 50%;
+}
+
+.play_container .play_title {
+    text-align: center;
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.play {
+    color: #ff2d99;
+}
+
+.play_container .play_description {
+    text-align: center;
+    margin: 0px auto;
+    color: #655c7c;
+    font-weight: 400;
+    width: 60%;
+
+}
+
+.play_img {
+    width: 50%;
+    position: relative;
+
+}
+
+.play_img img {
+    width: 90%;
+}
+
+.play_imgg img {
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    right: 400px;
+    top: 270px;
+}
+
+.games_section {
+    max-width: 1145px;
+    min-height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0px auto 80px;
+
+}
+
+.game_mode {
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    gap: 15px;
+    padding: 2px;
+
+
+}
+
+.game_mode p{
+    font-weight: 700;
+}
+
+.game_mode:hover {
+    color: #f959ab;
+    border: 1px solid rgb(226, 193, 149);
+    text-shadow: 1px 1px rgb(247, 16, 16);
+}
+
+.footer {
+    background-color: #0a031f;
+}
+
+.footer_container {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.footer_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.footer_img p {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #faf4f4;
+}
+
+.footer_container .footer_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    color: #f2f0f0;
+    padding-top: 2rem;
+}
+
+.footer_container .footer_link li {
+    list-style-type: none;
+}
+
+.social_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 1.35rem;
+    padding-top: 45px;
+}
+
+.website_policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18.50px;
+    margin-top: 50px;
+    color:#77d0f7;
+}
+
+.website_policy li {
+    list-style-type: none;
+}
+
+.copy_right_tag {
+    color:#7cd0f4;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 40px;
 }
